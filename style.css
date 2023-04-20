@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.block {
+    background-color: white;
+    height: 400px;
+    width: 480px;
+    border-radius: 20px 20px 120px 20px;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 20px 20px;
+    letter-spacing: .1em;
+
+}
+.date input{
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+/* hr{
+    margin-left: 15px;
+} */
+.date p{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    margin-left: 20px;
+    width: 370px;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+}
+
+.middle svg{
+    position: relative;
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+
+
+.out{
+    margin-left: 20px;
+
+}
+.data{
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+
+}
+
+.data2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+
+}
